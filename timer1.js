@@ -7,6 +7,7 @@ const removeNonNumbers = () => {
 
   //loop through new array to filter non numbers
   for (const each of arr) {
+    //check if each is a number and is greater than zero
     if (Number.isInteger(each) && each > 0) {
       newArray.push(each);
     }
